@@ -1,0 +1,14 @@
+{
+  "name": "touchless-gesture-timer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teachable Machine과 micro:bit를 연결한 손동작 타이머",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "test": "node tests/browser.cjs",
+    "test:ai": "node tests/ai-runtime.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
